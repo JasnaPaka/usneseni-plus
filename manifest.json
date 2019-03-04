@@ -1,0 +1,16 @@
+{
+
+    "manifest_version": 2,
+    "name": "Usnesení++",
+    "version": "1.0",
+  
+    "description": "Zpřehlední seznam usnesení na webu města Plzeň.",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://usneseni.plzen.eu/*"],
+        "js": ["usneseni.js"]
+      }
+    ]
+  
+  }
