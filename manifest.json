@@ -5,6 +5,11 @@
     "version": "1.0",
   
     "description": "Zpřehlední seznam usnesení na webu města Plzeň.",
+
+    "icons": {
+      "48": "icons/usneseni-48.png",
+      "96": "icons/usneseni-96.png"
+    },
   
     "content_scripts": [
       {

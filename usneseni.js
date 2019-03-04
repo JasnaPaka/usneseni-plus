@@ -29,7 +29,7 @@ if (vypis != null) {
         var newRow = document.createElement("tr");
         row.setAttribute("class", "alt");
 
-        newRow.innerHTML = '<td colspan="6" style="background-color: white; color:black; font-size: 15px; padding-bottom: 15px; padding-top: 3px;">' + nadpis + '</td>';
+        newRow.innerHTML = '<td colspan="6" style="background-color: white; color:black; font-size: 15px; padding-bottom: 15px; padding-top: 3px;">' + document.createTextNode(nadpis).nodeValue + '</td>';
         row.parentNode.insertBefore(newRow, row.nextSibling);
     });
 
